@@ -1,0 +1,226 @@
+<?xml version="1.0"?>
+<ArrayOfRules xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Rules>
+<Name>haven-money</Name>
+<Conds>
+<string>"haven-money" = "null"</string>
+<string>"ответ" = "null"</string>
+</Conds>
+<Ans>
+"haven-money" = func("Have you money (yes/no) ?")
+</Ans>
+</Rules>
+
+<Rules>
+<Name>haven-power</Name>
+<Conds>
+<string>"haven-power" = "null"</string>
+<string>"ответ" = "null"</string>
+</Conds>
+<Ans>
+"haven-power" = func("Have you power (yes/no) ?")
+</Ans>
+</Rules>
+
+<Rules>
+<Name>haven-internet</Name>
+<Conds>
+<string>"haven-internet" = "null"</string>
+<string>"ответ" = "null"</string>
+</Conds>
+<Ans>
+"haven-internet" = func("Have you internet (yes/no) ?")
+</Ans>
+</Rules>
+
+<Rules>
+<Name>haven-kino</Name>
+<Conds>
+<string>"haven-money" = "yes"</string>
+<string>"haven-power" = "yes"</string>
+<string>"ответ" = "null"</string>
+</Conds>
+<Ans>
+"haven-kino" = "yes"
+</Ans>
+</Rules>
+
+<Rules>
+<Name>haven-premier</Name>
+<Conds>
+<string>"haven-kino" = "yes"</string>
+<string>"ответ" = "null"</string>
+</Conds>
+<Ans>
+"haven-premier" = func("Want go premier (yes/no) ?")
+</Ans>
+</Rules>
+
+<Rules>
+<Name>haven-horror</Name>
+<Conds>
+<string>or "haven-premier" = "yes"</string>
+<string>or "haven-tv" = "yes"</string>
+<string>"ответ" = "null"</string>
+</Conds>
+<Ans>
+"haven-horror" = func("Want go horror (yes/no) ?")
+</Ans>
+</Rules>
+
+<Rules>
+<Name>haven-mult</Name>
+<Conds>
+<string>or "haven-premier" = "no"</string>
+<string>or "haven-online" = "yes"</string>
+<string>"ответ" = "null"</string>
+</Conds>
+<Ans>
+"haven-mult" = func("Want go mult (yes/no) ?")
+</Ans>
+</Rules>
+
+<Rules>
+<Name>haven-online</Name>
+<Conds>
+<string>"haven-money" = "yes"</string>
+<string>"haven-internet" = "yes"</string>
+<string>"ответ" = "null"</string>
+</Conds>
+<Ans>
+"haven-online" = "yes"
+</Ans>
+</Rules>
+
+
+<Rules>
+<Name>haven-online</Name>
+<Conds>
+<string>"haven-money" = "no"</string>
+<string>"haven-internet" = "no"</string>
+<string>"ответ" = "null"</string>
+</Conds>
+<Ans>
+"haven-online" = "no"
+</Ans>
+</Rules>
+
+<Rules>
+<Name>haven-kino</Name>
+<Conds>
+<string>"haven-power" = "no"</string>
+<string>"haven-money" = "no"</string>
+<string>"ответ" = "null"</string>
+</Conds>
+<Ans>
+"haven-kino" = "no"
+</Ans>
+</Rules>
+
+<Rules>
+<Name>haven-tv</Name>
+<Conds>
+<string>or "haven-kino" = "no"</string>
+<string>or "haven-online" = "no"</string>
+<string>"ответ" = "null"</string>
+</Conds>
+<Ans>
+"haven-tv" = func("Want watch tv (yes/no) ?")
+</Ans>
+</Rules>
+
+<Rules>
+<Name>haven-deti</Name>
+<Conds>
+<string>"haven-tv" = "yes"</string>
+<string>"ответ" = "null"</string>
+</Conds>
+<Ans>
+"haven-deti" = func("Want watch with deti (yes/no) ?")
+</Ans>
+</Rules>
+
+<Rules>
+<Name>thor</Name>
+<Conds>
+<string>"haven-tv" = "yes"</string>
+<string>"haven-deti" = "yes"</string>
+<string>"haven-horror" = "no"</string>
+<string>"ответ" = "null"</string>
+</Conds>
+<Ans>
+"ответ" = "Thor"
+</Ans>
+</Rules>
+
+<Rules>
+<Name>Book Ilae</Name>
+<Conds>
+<string>"haven-tv" = "yes"</string>
+<string>"haven-deti" = "no"</string>
+<string>"ответ" = "null"</string>
+</Conds>
+<Ans>
+"ответ" = "Book Ilae"
+</Ans>
+</Rules>
+
+<Rules>
+<Name>No Kino</Name>
+<Conds>
+<string>"haven-tv" = "no"</string>
+<string>"ответ" = "null"</string>
+</Conds>
+<Ans>
+"ответ" = "No Kino"
+</Ans>
+</Rules>
+
+<Rules>
+<Name>It 2</Name>
+<Conds>
+<string>"haven-premier" = "yes"</string>
+<string>"haven-horror" = "yes"</string>
+<string>"ответ" = "null"</string>
+</Conds>
+<Ans>
+"ответ" = "It 2"
+</Ans>
+</Rules>
+
+<Rules>
+<Name>Lion King</Name>
+<Conds>
+<string>"haven-premier" = "no"</string>
+<string>"haven-mult" = "yes"</string>
+<string>"ответ" = "null"</string>
+</Conds>
+<Ans>
+"ответ" = "Lion King"
+</Ans>
+</Rules>
+
+<Rules>
+<Name>Rio</Name>
+<Conds>
+<string>"haven-online" = "yes"</string>
+<string>"haven-mult" = "yes"</string>
+<string>"ответ" = "null"</string>
+</Conds>
+<Ans>
+"ответ" = "Rio"
+</Ans>
+</Rules>
+
+<Rules>
+<Name>Hunger Games</Name>
+<Conds>
+<string>"haven-online" = "yes"</string>
+<string>"haven-mult" = "no"</string>
+<string>"ответ" = "null"</string>
+</Conds>
+<Ans>
+"ответ" = "Hunger Games"
+</Ans>
+</Rules>
+</ArrayOfRules>
