@@ -1,0 +1,19 @@
+C:\Users\sereg\source\repos\SemSety\SemSety\bin\Debug\SemSety.exe.config
+C:\Users\sereg\source\repos\SemSety\SemSety\bin\Debug\SemSety.exe
+C:\Users\sereg\source\repos\SemSety\SemSety\bin\Debug\SemSety.pdb
+C:\Users\sereg\source\repos\SemSety\SemSety\obj\Debug\SemSety.csprojAssemblyReference.cache
+C:\Users\sereg\source\repos\SemSety\SemSety\obj\Debug\SemSety.Form1.resources
+C:\Users\sereg\source\repos\SemSety\SemSety\obj\Debug\SemSety.Properties.Resources.resources
+C:\Users\sereg\source\repos\SemSety\SemSety\obj\Debug\SemSety.csproj.GenerateResource.cache
+C:\Users\sereg\source\repos\SemSety\SemSety\obj\Debug\SemSety.exe
+C:\Users\sereg\source\repos\SemSety\SemSety\obj\Debug\SemSety.pdb
+C:\Users\Роман\Desktop\Progs\isit\nen\Новая папка (3)\SemSety\SemSety\bin\Debug\SemSety.exe.config
+C:\Users\Роман\Desktop\Progs\isit\nen\Новая папка (3)\SemSety\SemSety\bin\Debug\SemSety.exe
+C:\Users\Роман\Desktop\Progs\isit\nen\Новая папка (3)\SemSety\SemSety\bin\Debug\SemSety.pdb
+C:\Users\Роман\Desktop\Progs\isit\nen\Новая папка (3)\SemSety\SemSety\obj\Debug\SemSety.csprojAssemblyReference.cache
+C:\Users\Роман\Desktop\Progs\isit\nen\Новая папка (3)\SemSety\SemSety\obj\Debug\SemSety.Form1.resources
+C:\Users\Роман\Desktop\Progs\isit\nen\Новая папка (3)\SemSety\SemSety\obj\Debug\SemSety.Properties.Resources.resources
+C:\Users\Роман\Desktop\Progs\isit\nen\Новая папка (3)\SemSety\SemSety\obj\Debug\SemSety.csproj.GenerateResource.cache
+C:\Users\Роман\Desktop\Progs\isit\nen\Новая папка (3)\SemSety\SemSety\obj\Debug\SemSety.csproj.CoreCompileInputs.cache
+C:\Users\Роман\Desktop\Progs\isit\nen\Новая папка (3)\SemSety\SemSety\obj\Debug\SemSety.exe
+C:\Users\Роман\Desktop\Progs\isit\nen\Новая папка (3)\SemSety\SemSety\obj\Debug\SemSety.pdb
